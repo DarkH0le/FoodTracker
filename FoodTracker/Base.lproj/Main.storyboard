@@ -40,17 +40,9 @@
                                             <rect key="frame" x="97" y="37" width="252" height="44"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </stackView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="btT-1Y-I4a">
-                                            <rect key="frame" x="295" y="6" width="88" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="16"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="fecha" destination="btT-1Y-I4a" id="ewN-Sn-TXE"/>
                                     <outlet property="nameLabel" destination="bae-2p-rdI" id="siV-O0-axS"/>
                                     <outlet property="photoImageView" destination="aMZ-eD-Qxa" id="knv-Gh-GT6"/>
                                     <outlet property="ratingControl" destination="VZK-kE-VhQ" id="Yog-TR-df3"/>

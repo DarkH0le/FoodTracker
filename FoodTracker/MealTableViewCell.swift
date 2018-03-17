@@ -8,14 +8,16 @@
 
 import UIKit
 
+
+//Creamos nuetra celda, que tiene que extender de UITableViewCell
 class MealTableViewCell: UITableViewCell {
     
     //MARK: Properties
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var ratingControl: RatingControl!
-    @IBOutlet weak var fecha: UILabel!
     
+    //Preguntar porque awakeforNib, dice que espera recivir un servicio depues de ser cargado,not sure how this work
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

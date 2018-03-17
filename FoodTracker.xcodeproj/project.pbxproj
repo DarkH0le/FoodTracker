@@ -10,9 +10,6 @@
 		936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B811DB54E8F0090E3EE /* AppDelegate.swift */; };
 		936B4B871DB54E8F0090E3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936B4B851DB54E8F0090E3EE /* Main.storyboard */; };
 		936B4B891DB54E8F0090E3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936B4B881DB54E8F0090E3EE /* Assets.xcassets */; };
-		936B4B8C1DB54E8F0090E3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 936B4B8A1DB54E8F0090E3EE /* LaunchScreen.storyboard */; };
-		936B4B971DB54E8F0090E3EE /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936B4B961DB54E8F0090E3EE /* FoodTrackerTests.swift */; };
-		939722391DD4ED9800ACC1D0 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 939722381DD4ED9800ACC1D0 /* Meal.swift */; };
 		93B36E631DDB8D3A00334F4A /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B36E621DDB8D3A00334F4A /* MealTableViewCell.swift */; };
 		93B36E651DDBE63500334F4A /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93B36E641DDBE63500334F4A /* MealTableViewController.swift */; };
 		93E91EF11DCA8F83003E4C01 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E91EF01DCA8F83003E4C01 /* RatingControl.swift */; };
@@ -34,12 +31,8 @@
 		936B4B811DB54E8F0090E3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		936B4B861DB54E8F0090E3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		936B4B881DB54E8F0090E3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		936B4B8B1DB54E8F0090E3EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		936B4B8D1DB54E8F0090E3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		936B4B921DB54E8F0090E3EE /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		936B4B961DB54E8F0090E3EE /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
-		936B4B981DB54E8F0090E3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		939722381DD4ED9800ACC1D0 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		93B36E621DDB8D3A00334F4A /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
 		93B36E641DDBE63500334F4A /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 		93E91EF01DCA8F83003E4C01 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
@@ -68,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				936B4B801DB54E8F0090E3EE /* FoodTracker */,
-				936B4B951DB54E8F0090E3EE /* FoodTrackerTests */,
 				936B4B7F1DB54E8F0090E3EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,25 +79,14 @@
 			children = (
 				936B4B811DB54E8F0090E3EE /* AppDelegate.swift */,
 				93E91EF01DCA8F83003E4C01 /* RatingControl.swift */,
-				939722381DD4ED9800ACC1D0 /* Meal.swift */,
 				93B36E621DDB8D3A00334F4A /* MealTableViewCell.swift */,
 				93B36E641DDBE63500334F4A /* MealTableViewController.swift */,
 				936B4B851DB54E8F0090E3EE /* Main.storyboard */,
 				936B4B881DB54E8F0090E3EE /* Assets.xcassets */,
-				936B4B8A1DB54E8F0090E3EE /* LaunchScreen.storyboard */,
 				936B4B8D1DB54E8F0090E3EE /* Info.plist */,
 				E4079D57205B6AE100096796 /* rest.json */,
 			);
 			path = FoodTracker;
-			sourceTree = "<group>";
-		};
-		936B4B951DB54E8F0090E3EE /* FoodTrackerTests */ = {
-			isa = PBXGroup;
-			children = (
-				936B4B961DB54E8F0090E3EE /* FoodTrackerTests.swift */,
-				936B4B981DB54E8F0090E3EE /* Info.plist */,
-			);
-			path = FoodTrackerTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,7 +172,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				936B4B8C1DB54E8F0090E3EE /* LaunchScreen.storyboard in Resources */,
 				936B4B891DB54E8F0090E3EE /* Assets.xcassets in Resources */,
 				936B4B871DB54E8F0090E3EE /* Main.storyboard in Resources */,
 				E4079D58205B6AE100096796 /* rest.json in Resources */,
@@ -212,7 +192,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				939722391DD4ED9800ACC1D0 /* Meal.swift in Sources */,
 				93E91EF11DCA8F83003E4C01 /* RatingControl.swift in Sources */,
 				936B4B821DB54E8F0090E3EE /* AppDelegate.swift in Sources */,
 				93B36E651DDBE63500334F4A /* MealTableViewController.swift in Sources */,
@@ -224,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				936B4B971DB54E8F0090E3EE /* FoodTrackerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +223,6 @@
 				936B4B861DB54E8F0090E3EE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		936B4B8A1DB54E8F0090E3EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				936B4B8B1DB54E8F0090E3EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

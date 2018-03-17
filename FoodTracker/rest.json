@@ -1,73 +1,15 @@
 [
  {
  "id":1,
- "image": "cangrejo",
- "name": "krusty krab",
- "cal": 5,
- "fecha": "Julio"
+ "image": "test",
+ "name": "test",
+ "rating": 5
 },
 {
     "id":2,
-    "image": "baldeCarnada",
-    "name": "Balde de Carnada",
-    "cal": 0,
-    "fecha": "Enero"
- },
- {
- "id":3,
- "image": "burritos",
- "name": "Burro Master Race",
- "cal": 3,
- "fecha": "Marzo"
- },
- {
- "id":4,
- "image": "donas",
- "name": "Lard lad Donuts",
- "cal": 5,
- "fecha": "Enero"
- },
- {
- "id":5,
- "image": "hotdogs",
- "name": "King Dogs",
- "cal": 2,
- "fecha": "Noviembre"
- },
- {
- "id":6,
- "image": "mac",
- "name": "Burger King",
- "cal": 4,
- "fecha": "Diciembre"
- },
- {
- "id":7,
- "image": "maricos",
- "name": "Marisco Memin",
- "cal": 5,
- "fecha": "Junio"
- },
- {
- "id":8,
- "image": "mexicana",
- "name": "Quesadillas con Queso",
- "cal": 5,
- "fecha": "Julio"
- },
- {
- "id":9,
- "image": "tacos",
- "name": "Tacos el Pelon",
- "cal": 5,
- "fecha": "Agosto"
- },
- {
- "id":10,
- "image": "tamales",
- "name": "La gorda",
- "cal": 1,
- "fecha": "Diciembre"
+    "image": "test",
+    "name": "test2",
+    "rating": 0
  }
 ]
 
